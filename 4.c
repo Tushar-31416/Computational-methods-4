@@ -9,7 +9,7 @@ double exp_dist(double alpha) {
 }
 
 int main() {
-    const int n = 100000;
+    const int n = 10000;
     const double alpha = 2.0;
     double random[n];
 
@@ -30,8 +30,6 @@ int main() {
     }
 
     fclose(fout);
-
-//    printf("Generated 10,000 exponential random numbers and saved to 'exponential_numbers.txt'\n");
 
     return 0;
 }
